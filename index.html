@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Web Challenge</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Checklist</h1>
+        <div class="oval" id="count">0/3</div>
+    </div>
+    
+    <ul id="checklist">
+        <li><input type="checkbox" onchange="updateCount(this)" />First Checklist Item</li>
+        <li><input type="checkbox" onchange="updateCount(this)" />Second Checklist Item</li>
+        <li><input type="checkbox" onchange="updateCount(this)" />Third Checklist Item with much longer text</li>
+        
+    <script src="script.js"></script>
+</body>
+</html>
