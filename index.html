@@ -14,10 +14,20 @@
     </div>
     
     <ul id="checklist">
-        <li><input type="checkbox" onchange="updateCount(this)" />First Checklist Item</li>
-        <li><input type="checkbox" onchange="updateCount(this)" />Second Checklist Item</li>
-        <li><input type="checkbox" onchange="updateCount(this)" />Third Checklist Item with much longer text</li>
-        
+
+        <label class="chcontainer">Mark this checklist item as done
+            <input type="checkbox" class="con" checked="checked">
+            <span class="checkmark"></span>
+        </label>
+        <label class="chcontainer">This is the second checklist item
+            <input type="checkbox" >
+            <span class="checkmark"></span>
+        </label>
+        <label class="chcontainer">This is a checklist item with much longer text, this is the third checklist item in the list
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+    </ul>
     <script src="script.js"></script>
 </body>
 </html>
